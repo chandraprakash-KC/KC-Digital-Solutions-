@@ -1,10 +1,160 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KC Digital Solutions</title>
+<title>KC Digital Solutions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fc;
+}
+
+header{
+background:#001f54;
+color:white;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+background:linear-gradient(to right,#001f54,#003b8e);
+color:white;
+padding:100px 10%;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#ff6b00;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.services{
+padding:60px 10%;
+text-align:center;
+}
+
+.services h2{
+margin-bottom:40px;
+color:#001f54;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about{
+padding:60px 10%;
+background:white;
+text-align:center;
+}
+
+footer{
+background:#001f54;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Welcome to KC Digital Solutions</h1>
-    <p>Business Consulting & Digital Services</p>
+
+<header>
+<div class="logo">KC Digital Solutions</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Empowering Businesses Through Digital Solutions</h1>
+<p>Business Consulting, DevOps, Cloud Solutions & Digital Transformation</p>
+<a href="#" class="btn">Contact Us</a>
+</section>
+
+<section class="services">
+<h2>Our Services</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Business Consulting</h3>
+<p>Helping businesses streamline operations and improve growth.</p>
+</div>
+
+<div class="card">
+<h3>DevOps Services</h3>
+<p>CI/CD, Jenkins, Docker, Kubernetes and Cloud Automation.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Solutions</h3>
+<p>AWS, Azure and Infrastructure Management.</p>
+</div>
+
+<div class="card">
+<h3>Website Development</h3>
+<p>Professional websites for startups and businesses.</p>
+</div>
+</div>
+</section>
+
+<section class="about">
+<h2>About KC Digital Solutions</h2>
+<br>
+<p>
+We provide consulting and technology solutions to help businesses
+scale faster using modern cloud and DevOps practices.
+</p>
+</section>
+
+<footer>
+© 2026 KC Digital Solutions | All Rights Reserved
+</footer>
+
 </body>
 </html>
